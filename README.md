@@ -31,10 +31,9 @@ To run this project, you need:
 ## 🛠️Setup and Running the Project:
 
 ### 1. Clone the Repository
-    ```
+
     git clone https://github.com/NaveSadan/Running_prog.git
     cd Running_prog
-    ```
 
 ### 2. Configure JavaFX
 
