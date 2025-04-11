@@ -62,16 +62,16 @@ To run this project, you need:
 ## Project structor
 Running_prog/
 ├── src/
-│   ├── AlertSystem.java       # Manages alerts
-│   ├── DataImporter.java      # Imports data from CSV
+│   ├── AlertSystem.java        # Manages alerts
+│   ├── DataImporter.java       # Imports data from CSV
 │   ├── Goal.java              # Defines a runner's goal
 │   ├── RecommendationEngine.java # Provides recommendations
 │   ├── Run.java               # Represents a single run
-│   ├── Runner.java            # Manages a runner's data
-│   ├── RunningTrackerUI.java  # Main UI class (JavaFX)
-│   ├── runs.csv               # Sample running data
+│   ├── Runner.java            # Manages runner data
+│   ├── RunningTrackerUI.java   # Main UI (JavaFX)
+│   ├── runs.csv               # Sample run data
 ├── .gitignore                 # Git ignore file
-├── README.md                  # This file
+├── README.md                  # Project documentation
 
 
 ## Sample Data
