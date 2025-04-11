@@ -59,17 +59,17 @@ To run this project, you need:
             java --module-path /path/to/javafx-sdk-17.0.14/lib --add-modules javafx.controls,javafx.fxml -cp out/production/Running_prog RunningTrackerUI
                 ### Replace /path/to/javafx-sdk-17.0.14 with the actual path to your JavaFX  SDK.
 
-## Project structor:
+## Project structor
 Running_prog/
 ├── src/
-│   ├── AlertSystem.java        # Handles alerts based on running data
-│   ├── DataImporter.java       # Imports running data from CSV
-│   ├── Goal.java              # Represents a runner's goal
-│   ├── RecommendationEngine.java # Generates recommendations
+│   ├── AlertSystem.java       # Manages alerts
+│   ├── DataImporter.java      # Imports data from CSV
+│   ├── Goal.java              # Defines a runner's goal
+│   ├── RecommendationEngine.java # Provides recommendations
 │   ├── Run.java               # Represents a single run
 │   ├── Runner.java            # Manages a runner's data
-│   ├── RunningTrackerUI.java   # Main UI class (JavaFX)
-│   ├── runs.csv                # Sample running data
+│   ├── RunningTrackerUI.java  # Main UI class (JavaFX)
+│   ├── runs.csv               # Sample running data
 ├── .gitignore                 # Git ignore file
 ├── README.md                  # This file
 
@@ -81,7 +81,7 @@ Running_prog/
     Running,2025-04-01 08:00:00,5.02,00:25:12,300,145,...
     Running,2025-04-05 07:30:00,8.01,00:40:15,480,150,...
 
-##Acknowledgments
+## Acknowledgments
 
     -- Built with ❤️ by Nave Sadan.
     -- Thanks to JavaFX for the awesome UI framework!
