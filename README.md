@@ -11,7 +11,7 @@ Running Tracker is a desktop application designed to help runners monitor their 
 
 The project is built using **Java 17** and **JavaFX 17**, and it reads running data from a CSV file (`runs.csv`).
 
-## Features:
+## ✨Features:
 
 - **Run Table**: Displays all runs with columns for date, distance (km), time (min), and pace (min/km).
 - **Progress Chart**: A line chart showing the cumulative distance over time (days).
@@ -28,18 +28,18 @@ To run this project, you need:
 - **JavaFX 17** SDK (download from [Gluon](https://gluonhq.com/products/javafx/)).
 - An IDE like IntelliJ IDEA (recommended) or any other Java IDE.
 
-## Setup and Running the Project:
+## 🛠️Setup and Running the Project:
 
 ### 1. Clone the Repository
-        ```bash
+        ```sh
         git clone https://github.com/NaveSadan/Running_prog.git
         cd Running_prog
 
 ### 2. Configure JavaFX
 
-        Download JavaFX 17 from Gluon.
-        Extract the JavaFX SDK to a directory (e.g., /path/to/javafx-sdk-17.0.14).
-        Update the path in the RunningTrackerUI.java file if needed (for the runs.csv file).
+        - Download JavaFX 17 from Gluon.
+        - Extract the JavaFX SDK to a directory (e.g., /path/to/javafx-sdk-17.0.14).
+        - Update the path in the RunningTrackerUI.java file if needed (for the runs.csv file).
 
 ### 3. Run the Application in IntelliJ
 
@@ -59,7 +59,7 @@ To run this project, you need:
             java --module-path /path/to/javafx-sdk-17.0.14/lib --add-modules javafx.controls,javafx.fxml -cp out/production/Running_prog RunningTrackerUI
                 ### Replace /path/to/javafx-sdk-17.0.14 with the actual path to your JavaFX  SDK.
 
-## Project structor
+## 📁Project structor
 
 ```
 Running_prog/
@@ -80,13 +80,16 @@ Running_prog/
 
 ## Sample Data
 
-    -- The runs.csv file contains sample running data in the following format:
+    - The runs.csv file contains sample running data in the following format:
         Activity Type,Date,Distance,Time,Calories,Average HR,...
         Running,2025-04-01 08:00:00,5.02,00:25:12,300,145,...
         Running,2025-04-05 07:30:00,8.01,00:40:15,480,150,...
 
+## 📌 Contribution
 
-## Acknowledgments
+Feel free to fork this repository and submit pull requests for improvements!
 
-    -- Built with ❤️ by Nave Sadan.
-    -- Thanks to JavaFX for the awesome UI framework!
+## 👤 Author
+Built with ❤️ by Nave Sadan during 2nd year Information Systems B.Sc.
+Thanks to JavaFX for the awesome UI framework!
+
