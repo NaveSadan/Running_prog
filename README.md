@@ -60,6 +60,8 @@ To run this project, you need:
                 ### Replace /path/to/javafx-sdk-17.0.14 with the actual path to your JavaFX  SDK.
 
 ## Project structor
+
+```
 Running_prog/
 ├── src/
 │   ├── AlertSystem.java        # Manages alerts
@@ -72,6 +74,8 @@ Running_prog/
 │   ├── runs.csv               # Sample run data
 ├── .gitignore                 # Git ignore file
 ├── README.md                  # Project documentation
+```
+
 
 
 ## Sample Data
